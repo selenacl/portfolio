@@ -1,0 +1,22 @@
+.footer {
+  height: 10vh;
+  background-color: grey;
+}
+
+.footer-items {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-item {
+  display: inline;
+}
+
+#leftFooterLinks {
+  display: inline-block;
+}
+
+#rightFooterLinks {
+  display: inline-block;
+  float: right;
+}
