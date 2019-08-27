@@ -35,12 +35,12 @@
 }
 
 .nav-a:hover {
-  color: orange;
+  color: #ef8354;
 }
 
 .active {
-  color: orange;
-  border-bottom: 1px solid orange;
+  color: #ef8354;
+  border-bottom: 1px solid #ef8354;
   padding-bottom: 5px;
 }
 
