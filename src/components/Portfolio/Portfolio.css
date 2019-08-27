@@ -1,0 +1,45 @@
+.portfolioBox {
+  border: solid 5px #ef8354;
+  box-shadow: 0 0 5px gray;
+  display: inline-block;
+  width: 30%;
+  margin: 5px;
+  vertical-align: top;
+  flex: 1;
+}
+
+.portfolioUpperBox {
+  display: flex;
+}
+
+.portfolioLowerBox {
+  display: flex;
+}
+
+.portfolioText {
+  font-size: 70%;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#portfolioTitle {
+  padding-bottom: 0px;
+}
+
+.portfolioLink {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolioLink:hover {
+  color: #ef8354;
+}
+
+.portfolioBio {
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+#innerPortfolio {
+  padding-top: 2%;
+}
