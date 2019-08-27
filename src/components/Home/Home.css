@@ -1,4 +1,78 @@
 #homeContainer {
   background-image: url(../../assets/desert.png);
+  display: flex;
 }
 
+#homeLeftBox {
+  display: inline;
+  flex: 1;
+  margin-top: 7%;
+  margin-left: 15%;
+  margin-bottom: 7%;
+  margin-right: 0%;
+}
+
+#homeRightBox {
+  display: inline;
+  flex: 1;
+  text-align: right;
+  margin-top: 7%;
+  margin-left: 0%;
+  margin-bottom: 7%;
+  margin-right: 15%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#portrait {
+  height: auto;
+  width: auto;
+
+}
+
+#homeText1 {
+  font-weight: normal;
+  color: #333333;
+}
+
+#homeName {
+  color: #ef8354;
+  font-size: 230%;
+}
+
+#homeText2 {
+  font-weight: normal;
+  line-height: 200%;
+  color: #333333;
+}
+
+.homeIcon {
+  color: #7C7C7C;
+  padding-right: 20px;
+  width: 5%!important;
+}
+
+.homeIconText {
+  width: 15%!important;
+  text-decoration: none;
+  color: #333333;
+}
+
+.homeIconText:hover {
+  color: #ef8354;
+}
+
+.homeLinks {
+  padding-top: 30px;
+}
+
+.homeLink {
+  padding-bottom: 25px;
+}
+
+#homeIconTextLocation:hover {
+  color: #333333;
+}
