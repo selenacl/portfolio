@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import '../Common/PageContainer.css'
+import '../Common/PageContainer.css';
+import homeBackground from '../../assets/desert.png';
 
 const Home = ({id}) => {
     return (

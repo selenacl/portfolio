@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class Navbar extends Component {
 
@@ -10,7 +10,7 @@ class Navbar extends Component {
                 <div className="nav-content">
                     <ul className="nav-items">
                         <li className="nav-item">
-                            <Link
+                            <a href="" className="nav-a"><Link
                                 activeClass="active"
                                 to="homeContainer"
                                 spy={true}
@@ -18,10 +18,10 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={300} >
                             Home
-                            </Link>
+                            </Link></a>
                         </li>
                         <li className="nav-item">
-                            <Link
+                            <a href="" className="nav-a"><Link
                                 activeClass="active"
                                 to="aboutContainer"
                                 spy={true}
@@ -29,10 +29,10 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={300} >
                             About
-                            </Link>
+                            </Link></a>
                         </li>
                         <li className="nav-item">
-                            <Link
+                            <a href="" className="nav-a"><Link
                                 activeClass="active"
                                 to="experienceContainer"
                                 spy={true}
@@ -40,10 +40,10 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={300} >
                             Experience
-                            </Link>
+                            </Link></a>
                         </li>
                         <li className="nav-item">
-                            <Link
+                            <a href="" className="nav-a"><Link
                                 activeClass="active"
                                 to="portfolioContainer"
                                 spy={true}
@@ -51,10 +51,10 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={300} >
                             Portfolio
-                            </Link>
+                            </Link></a>
                         </li>
                         <li className="nav-item">
-                            <Link
+                            <a href="" className="nav-a"><Link
                                 activeClass="active"
                                 to="skillsContainer"
                                 spy={true}
@@ -62,7 +62,7 @@ class Navbar extends Component {
                                 offset={-70}
                                 duration={300} >
                             Skills
-                            </Link>
+                            </Link></a>
                         </li>
                     </ul>
                 </div>
