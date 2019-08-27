@@ -1,0 +1,61 @@
+#experienceContainer {
+  background-color: #fafafa;
+}
+
+.experienceBox {
+  border: solid 5px #ef8354;
+  box-shadow: 0 0 5px gray;
+  margin-top: 20px;
+}
+
+.innerJobBox {
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 3%;
+}
+
+.jobTitle {
+  font-weight: normal;
+  margin-top: 10px!important;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+.jobDate {
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jobList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.jobListItem {
+  padding-bottom: 10px;
+  font-size: 90%;
+}
+
+#citi {
+  color: #056dae;
+}
+
+#target {
+  color: #cc0000;
+}
+
+.resumeBtn {
+  float:right;
+  background-color: #2d3142;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#resumeLink {
+  color: white;
+  text-decoration: none;
+}
