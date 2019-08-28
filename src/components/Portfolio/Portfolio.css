@@ -44,3 +44,28 @@
 #innerPortfolio {
   padding-top: 2%;
 }
+
+@media screen and (max-width: 900px) {
+  #portfolioContainer {
+    height: auto;
+  }
+
+  .portfolioUpperBox {
+    display: block;
+  }
+  
+  .portfolioLowerBox {
+    display: block;
+  }
+  .portfolioBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  #portfolioContainer {
+    height: auto;
+  }
+}

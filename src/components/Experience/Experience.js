@@ -7,10 +7,10 @@ const Experience = ({id}) => {
         <div className="pageContainer" id={id}>
             <div className="innerContainer">
             <div>
-                <h1 className="pageTitle" style={{"display": "inline"}}>Experience</h1>
+                <h1 className="pageTitle" id="experienceTitle">Experience</h1>
                 <button className="resumeBtn"><a href="Selena Castrolopez - Resume.pdf" download id="resumeLink">DOWLOAD RESUME</a></button>
             </div>
-            <div className="experienceBox">
+            <div className="experienceBox" id="firstExperienceBox">
                 <div className="innerJobBox">
                     <h3 className="jobTitle">Summer Technology Analyst - </h3><h3 className="jobTitle" id="citi"><i><b>Citi</b></i></h3>
                     <h4 className="jobDate">June 2019 - August 2019</h4>
@@ -23,7 +23,7 @@ const Experience = ({id}) => {
                     </ul>
                 </div>
             </div>
-            <div className="experienceBox">
+            <div className="experienceBox" id="secondExperienceBox">
                 <div className="innerJobBox">
                     <h3 className="jobTitle">Electronics Consultant - </h3><h3 className="jobTitle" id="target"><i><b>Target</b></i></h3>
                     <h4 className="jobDate">February 2017 - Februrary 2019</h4>

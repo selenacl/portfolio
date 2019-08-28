@@ -31,6 +31,25 @@
   -webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
-  padding-left: 0;
   width: 100%
+}
+
+@media screen and (max-width: 600px) {
+  #skillsContainer {
+    height: auto!important;
+  }
+  
+  .skillsBoxes {
+    display: block;
+  }
+
+  .skillsBox {
+    display: block;
+  }
+
+  #skillsList {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
 }

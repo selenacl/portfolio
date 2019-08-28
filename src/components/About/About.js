@@ -13,19 +13,23 @@ const About = ({id}) => {
     return (
         <div className="pageContainer" id={id}>
             <div className="innerContainer">
-                <h1 className="pageTitle">About</h1>
+                <h1 className="pageTitle" id="aboutTitle">About</h1>
                 <div className="aboutBoxes">
                     <div id="aboutLeftBox">
                         <AboutText />
                     </div>
                     <div id="aboutRightBox">
-                        <img src={donut} className="aboutIcon"/>
-                        <img src={dumbbell} className="aboutIcon"/>
-                        <img src={controller} className="aboutIcon"/>
-                        <br />
-                        <img src={beach} className="aboutIcon"/>
-                        <img src={climbing} className="aboutIcon"/>
-                        <img src={programming} className="aboutIcon"/>
+                        <div id="aboutIconTop">
+                            <img src={donut} className="aboutIcon"/>
+                            <img src={dumbbell} className="aboutIcon"/>
+                            <img src={controller} className="aboutIcon"/>
+                        </div>
+                        
+                        <div id="aboutIconBottom">
+                            <img src={beach} className="aboutIcon"/>
+                            <img src={climbing} className="aboutIcon"/>
+                            <img src={programming} className="aboutIcon"/>
+                        </div>
                     </div>
                 </div>
             </div>

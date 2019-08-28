@@ -44,3 +44,9 @@
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 450px) {
+  .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

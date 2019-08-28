@@ -2,9 +2,9 @@ import React from 'react';
 import './Skills.css';
 import '../Common/PageContainer.css'
 import SkillsBox from './SkillsBox';
-const Skills = () => {
+const Skills = ({id}) => {
     return (
-        <div className="pageContainer" id="skillsContainer">
+        <div className="pageContainer" id={id}>
             <div className="innerContainer">
                 <h1 className="pageTitle" id="skillsTitle">Skills</h1>
                 <div className="skillsBoxes">
