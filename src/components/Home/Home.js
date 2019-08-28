@@ -27,11 +27,11 @@ const Home = ({id}) => {
                     </div>
                     <div className="homeLink">
                         <FontAwesomeIcon icon={faGithub} className="homeIcon"/>
-                        <a href="github.com/selenacl/" className="homeIconText">github.com/selenacl</a>
+                        <a href="https://github.com/selenacl/" className="homeIconText">github.com/selenacl</a>
                     </div>
                     <div className="homeLink">
                         <FontAwesomeIcon icon={faLinkedin} className="homeIcon"/>
-                        <a href="linkedin.com/in/selena-castrolopez-b4058b18b" className="homeIconText">linkedin.com/selena-castrolopez</a>
+                        <a href="https://linkedin.com/in/selena-castrolopez-b4058b18b" className="homeIconText">linkedin.com/selena-castrolopez</a>
                     </div>
                 </div>
             </div>

@@ -3,9 +3,9 @@
 }
 
 .experienceBox {
-  border: solid 5px #ef8354;
+  border-left: solid 5px #ef8354;
   box-shadow: 0 0 5px gray;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .innerJobBox {

@@ -7,7 +7,7 @@ const Experience = ({id}) => {
         <div className="pageContainer" id={id}>
             <div className="innerContainer">
             <div>
-                <h1 className="pageTitle" style={{"display": "inline"}}>EXPERIENCE</h1>
+                <h1 className="pageTitle" style={{"display": "inline"}}>Experience</h1>
                 <button className="resumeBtn"><a href="Selena Castrolopez - Resume.pdf" download id="resumeLink">DOWLOAD RESUME</a></button>
             </div>
             <div className="experienceBox">

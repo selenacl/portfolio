@@ -1,9 +1,10 @@
 .portfolioBox {
-  border: solid 5px #ef8354;
+  border: solid 3px #ef8354;
   box-shadow: 0 0 5px gray;
   display: inline-block;
-  width: 30%;
-  margin: 5px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   vertical-align: top;
   flex: 1;
 }

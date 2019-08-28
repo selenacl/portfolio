@@ -13,7 +13,7 @@ const About = ({id}) => {
     return (
         <div className="pageContainer" id={id}>
             <div className="innerContainer">
-                <h1 className="pageTitle">ABOUT</h1>
+                <h1 className="pageTitle">About</h1>
                 <div className="aboutBoxes">
                     <div id="aboutLeftBox">
                         <AboutText />
