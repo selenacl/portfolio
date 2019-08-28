@@ -1,3 +1,36 @@
 #skillsContainer {
   height: 80vh!important;
+  background-color: #fafafa;
+}
+
+.innerSkillsBox {
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 3%;
+}
+
+.skillsBoxes {
+  display: flex;
+}
+
+#skillsTitle {
+  padding-bottom: 15px;
+}
+
+.skillsBox {
+  border-left: solid 5px #ef8354;
+  box-shadow: 0 0 5px gray;
+  display: inline-block;
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#skillsList {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  padding-left: 0;
+  width: 100%
 }

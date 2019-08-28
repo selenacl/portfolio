@@ -5,12 +5,14 @@
 #aboutLeftBox {
   flex: 1;
   line-height: 150%;
+  padding-top: 20px;
 }
 
 #aboutRightBox {
   flex: 1;
   padding-left: 10px;
   padding-right: 10px;
+  
   text-align: center;
 }
 

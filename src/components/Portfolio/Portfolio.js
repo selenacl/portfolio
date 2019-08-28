@@ -49,7 +49,7 @@ const Portfolio = ({id}) => {
                     <PortfolioBox 
                         source={cache}
                         name="Cache Simulator"
-                        description="Simulator created to test the differences in caches with different associations, write policies, and replacement policies."
+                        description="Simulator created to test the differences in caches with different associations, write policies, and replacement policies"
                         tech="Tech Used: C Programming Language" />
                     <PortfolioBox 
                         source={kimmyd}
