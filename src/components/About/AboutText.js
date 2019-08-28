@@ -20,7 +20,7 @@ const AboutText = () => {
           obscure of details on out current project!</p>
 
           <p>Aside from development I love videogames, the beach, exercising at the gym, 
-            rock climbing, and all type of <b>baked goods</b>.
+            rock climbing, and all types of <b>baked goods</b>.
           </p>
 
         </div>

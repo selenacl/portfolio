@@ -12,7 +12,6 @@
   flex: 1;
   padding-left: 10px;
   padding-right: 10px;
-  
   text-align: center;
 }
 
@@ -23,4 +22,99 @@
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .aboutBoxes {
+    display: block;
+  }
+
+  #aboutContainer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutIcon {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #aboutIconTop {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  #aboutIconBottom {
+    display: inline-block;
+    padding-left: 30px;
+  }
+
+  #aboutTitle {
+    padding-bottom: 0;
+  }
+
+  #aboutLeftBox {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aboutIcon {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  #aboutIconTop {
+    padding-right: 20px;
+  }
+
+  #aboutIconBottom {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aboutIcon {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  #aboutIconTop {
+    padding-right: 20px;
+  }
+
+  #aboutIconBottom {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px){
+  .aboutIcon {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #aboutLeftBox {
+    line-height: 180%;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2199px){
+  .aboutIcon {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .aboutIcon {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
 }
