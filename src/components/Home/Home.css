@@ -1,0 +1,140 @@
+#homeContainer {
+  background-image: url(../../assets/desert.png);
+  display: flex;
+}
+
+#homeLeftBox {
+  display: inline;
+  flex: 1;
+  margin-top: 7%;
+  margin-left: 15%;
+  margin-bottom: 7%;
+  margin-right: 0%;
+}
+
+#homeRightBox {
+  display: inline;
+  flex: 1;
+  text-align: right;
+  margin-top: 7%;
+  margin-left: 0%;
+  margin-bottom: 7%;
+  margin-right: 15%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#portrait {
+  height: auto;
+  width: auto;
+
+}
+
+#homeText1 {
+  font-weight: normal;
+  color: #333333;
+}
+
+#homeName {
+  color: #ef8354;
+  font-size: 230%;
+}
+
+#homeText2 {
+  font-weight: normal;
+  line-height: 200%;
+  color: #333333;
+}
+
+.homeIcon {
+  color: #7C7C7C;
+  padding-right: 20px;
+  width: 5%!important;
+}
+
+.homeIconText {
+  width: 15%!important;
+  text-decoration: none;
+  color: #333333;
+}
+
+.homeIconText:hover {
+  color: #ef8354;
+}
+
+.homeLinks {
+  padding-top: 30px;
+}
+
+.homeLink {
+  padding-bottom: 25px;
+}
+
+#homeIconTextLocation:hover {
+  color: #333333;
+}
+
+@media screen and (max-width: 750px) {
+  #homeContainer {
+    display: block;
+    height: auto;
+  }
+
+  #homeLeftBox {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #homeRightBox {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  #portrait {
+    height: 50%;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  .homeLinks {
+    text-align: left;
+    padding-left: 0%;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  #homeLeftBox {
+    padding-top: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #homeRightBox {
+    position: absolute;
+    top: 0px;
+  }
+
+  #portrait {
+    padding-top: 11vh;
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #homeLeftBox {
+    font-size: larger;
+  }
+
+  #homeRightBox {
+
+  }
+}
