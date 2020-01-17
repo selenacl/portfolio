@@ -12,9 +12,9 @@ const Home = ({id}) => {
         <div className="pageContainer" id={id}>
             <div id="homeLeftBox">
                 <h2 id="homeText1">Hey! I'm</h2>
-                <h1 id="homeName">Selena Castrolopez</h1>
-                <h3 id="homeText2">I'm a developer and student at the<br />
-                    University of Central Florida.
+                <h1 id="homeName">Selena Castrolopez, </h1>
+                <h3 id="homeText2">a developer always looking<br />
+                for a challenge.
                 </h3>
                 <div className="homeLinks">
                     <div className="homeLink">
@@ -31,7 +31,7 @@ const Home = ({id}) => {
                     </div>
                     <div className="homeLink">
                         <FontAwesomeIcon icon={faLinkedin} className="homeIcon"/>
-                        <a href="https://linkedin.com/in/selena-castrolopez-b4058b18b" className="homeIconText">linkedin.com/selena-castrolopez</a>
+                        <a href="https://linkedin.com/in/selena-castrolopez-b4058b18b" className="homeIconText">View me on LinkedIn</a>
                     </div>
                 </div>
             </div>

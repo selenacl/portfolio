@@ -2,12 +2,12 @@ import React from 'react';
 import './Portfolio.css';
 import '../Common/PageContainer.css';
 import PortfolioBox from './PortfolioBox';
-import keepu from '../../assets/keepu.png';
-import sherlock from '../../assets/sherlock.png';
+import snacked from '../../assets/snacked.jpg';
+import sherlock from '../../assets/sherlock1.jpg';
 import signups from '../../assets/signups.png';
-import kimmyd from '../../assets/kimmyd.png';
+import treeme from '../../assets/treeme.jpg';
 import cache from '../../assets/cache.png';
-import contact from '../../assets/contact.png';
+import eventIt from '../../assets/event-it.jpg';
 
 const Portfolio = ({id}) => {
     return (
@@ -20,31 +20,32 @@ const Portfolio = ({id}) => {
                         source={signups}
                         name="Simple Signups"
                         github="https://github.com/selenacl/volunteer-site"
-                        description="Web app used to create and sign up for events"
-                        tech="Tech Used: React, Redux, Bootstrap, Node, Express, Mongodb, AWS"
+                        description="Web app used to create and sign up for volunteering opportunities"
+                        tech="Tech Used: React, Redux, Bootstrap, Node, Express, Mongodb"
                     />
                     <PortfolioBox 
-                        url="keepuapp.herokuapp.com"
-                        source={keepu}
-                        name="Keepu"
-                        github="https://github.com/EA-Cortes/COP4331-large-project"
-                        description="Web app for non profits to organize materials needed"
-                        tech="Tech Used: React, Bootstrap, Node, Express, Mongodb, Heroku"
+                        url="https://getsnacked.herokuapp.com"
+                        source={snacked}
+                        name="Snacked"
+                        github="https://github.com/selenacl/snacked"
+                        description="Landing page for a faux baking subscription service company"
+                        tech="Tech Used: HTML, CSS/SASS, Adobe XD"
                     />
                     <PortfolioBox 
                         source={sherlock}
                         name="Sherlock"
                         github="https://github.com/BrendonLyra/Sherlock"
-                        description="Senior Design Project (in progress) - Web app to study choices made in interactive media using various biometric scanners"
-                        tech="Tech Used: React, Redux, Bootstrap, Node, Express, Mongodb, AWS, OWL"
+                        description="Senior Design Project - Web app to study choices made in interactive media using various biometric scanners"
+                        tech="Tech Used: React, Redux, Bootstrap, Node, Express, Mongodb, OWL"
                     />
                 </div>
                 <div className="portfolioLowerBox">
                     <PortfolioBox 
-                        source={contact}
-                        name="Contact Web App"
-                        description="Web app to add and view contacts"
-                        tech="Tech Used: HTML/CSS/JS, ASP.NET, MySQL, Azure"
+                        source={eventIt}
+                        name="Event It"
+                        github="https://github.com/selenacl/event-site"
+                        description="Web app for students to sign up and view college events and student organizations"
+                        tech="Tech Used: React, Node, MySQL, AWS, Bootstrap"
                     />
                     <PortfolioBox 
                         source={cache}
@@ -52,11 +53,12 @@ const Portfolio = ({id}) => {
                         description="Simulator created to test the differences in caches with different associations, write policies, and replacement policies"
                         tech="Tech Used: C Programming Language" />
                     <PortfolioBox 
-                        source={kimmyd}
-                        name="Kimmy D's Diner"
-                        github="https://github.com/juliansweatt/kimmyd-diner"
-                        description="Landing page for a family owned diner"
-                        tech="Tech Used: Angular"
+                        url="treeme.herokuapp.com"
+                        source={treeme}
+                        name="Tree.me"
+                        github="https://github.com/selenacl/treeme"
+                        description="A site to search through a subset of trees by name and view more details about them"
+                        tech="Tech Used: React, CSS/SASS, Adobe XD"
                     />
                 </div>
 
